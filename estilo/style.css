@@ -1,0 +1,16 @@
+@charset "UFT-8";
+
+/* fonte dest*/
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&family=Playwrite+CO:wght@100..400&family=Ubuntu&display=swap');
+
+/* fonte 2*/
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+CO:wght@100..400&family=Ubuntu&display=swap');
+
+:root {
+    --
+
+
+    --fonte01: verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: "Playwrite CO", cursive;
+    --fonte03: "Montserrat", sans-serif;
+}
