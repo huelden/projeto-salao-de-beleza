@@ -7,10 +7,59 @@
 @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+CO:wght@100..400&family=Ubuntu&display=swap');
 
 :root {
-    --
+    --cor01: #6F7302;
+    --cor02: #ECF230;
+    --cor03: #F2E63D;
+    --cor04: #594302;
+    --cor05: #0D0D0D;
 
 
     --fonte01: verdana, Geneva, Tahoma, sans-serif;
     --fonte02: "Playwrite CO", cursive;
     --fonte03: "Montserrat", sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.1em;
+}
+html, body {
+    min-height: 100vh;
+    background-color: darkgrey;
+    font-family: var(--fonte03);
+}
+header {
+    background-color: var(--cor01);
+    color: var(--cor05);
+   
+    text-align: center;
+    margin: 0px;
+    padding: 30px;
+   
+}
+header > h1 {
+    padding-top: 50px;
+    font-variant: cursive;
+    font-family: var(--fonte02);
+    font-size: 3vw;
+}
+nav{
+    background-color: var(--cor01);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.404);
+}
+nav > a {
+   
+    color: var(--cor05);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .6s;
+
+}
+nav > a:hover {
+   
+    background-color: var(--cor03);
+    color: var(--cor01);
 }
