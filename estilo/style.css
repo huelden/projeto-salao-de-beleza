@@ -7,8 +7,8 @@
 @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+CO:wght@100..400&family=Ubuntu&display=swap');
 
 :root {
-    --cor01: #6F7302;
-    --cor02: #ECF230;
+    --cor01: #6f7302;
+    --cor02: #ecf230f8;
     --cor03: #F2E63D;
     --cor04: #594302;
     --cor05: #0D0D0D;
@@ -29,7 +29,7 @@ html, body {
     font-family: var(--fonte03);
 }
 header {
-    background-color: var(--cor01);
+    background-color: var(--cor02);
     color: var(--cor05);
    
     text-align: center;
@@ -38,13 +38,18 @@ header {
    
 }
 header > h1 {
-    padding-top: 50px;
+    background-image: url('../img/planta.jpg');
+
+    color: var(--cor03);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     font-variant: cursive;
     font-family: var(--fonte02);
-    font-size: 3vw;
+    font-size: 4vw;
+    
 }
 nav{
-    background-color: var(--cor01);
+    background-color: var(--cor02);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.404);
 }
@@ -60,8 +65,8 @@ nav > a {
 }
 nav > a:hover {
    
-    background-color: var(--cor03);
-    color: var(--cor01);
+    background-color: var(--cor04);
+    color: white;
 
 }
 
@@ -82,8 +87,30 @@ section.normal{
     
     
 }
+section.img > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.486);
+    text-shadow: 2px 1px 0px rgba(255, 255, 255, 0.082);
+}
 section.img {
+    background-color: #e0d74c9f;
+    color: #0D0D0D;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
+
 
 
 }
+section#img01 {
+    background-image: url('../img/corte.jpg');
+}
+section#img02 {
+    background-image: url('../img/cabelo01.jpg');
+    background-position: left center;
+}
+picture img{
+    width: 100%;
 
+}
