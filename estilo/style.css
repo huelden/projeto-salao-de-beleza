@@ -62,4 +62,28 @@ nav > a:hover {
    
     background-color: var(--cor03);
     color: var(--cor01);
+
 }
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-weight: var(--fonte01);
+    font-size: 2vw;
+}
+
+section.normal{
+    background-color: var(--cor04);
+    text-align: center;
+    line-height: 1em;
+    font-size: 2em;
+    
+    
+}
+section.img {
+
+
+}
+
