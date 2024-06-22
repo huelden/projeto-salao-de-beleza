@@ -94,6 +94,7 @@ section.img > p {
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.486);
     text-shadow: 2px 1px 0px rgba(255, 255, 255, 0.082);
+   
 }
 section.img {
     background-color: #e0d74c9f;
@@ -101,7 +102,6 @@ section.img {
     box-shadow: inset 6px 6px 13px 0px black;
     background-size: cover;
     background-attachment: fixed;
-
 
 
 }
@@ -116,14 +116,18 @@ section#img02 {
 section#img02 > p {
     
     background-color: #f2e63d2f;
-    color: #F2E63D;
+    color: #F2E63D;;
     font-family: var(--fonte01);
+    text-align: left;
     font-weight: normal;
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.486);
-    text-align: ;
+    
     font-size: 6vh;
     min-height:  100px;
     padding-top: 40px;
+    
+
+    
 }
 footer {
     background-color: #5943028a;
