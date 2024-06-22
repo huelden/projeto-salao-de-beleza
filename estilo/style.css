@@ -77,6 +77,7 @@ section {
     padding-left: 30px;
     font-weight: var(--fonte01);
     font-size: 2vw;
+    
 }
 
 section.normal{
@@ -119,8 +120,12 @@ section#img02 > p {
     font-family: var(--fonte01);
     font-weight: normal;
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.486);
-    font-size: 7vh;
+    text-align: ;
+    font-size: 6vh;
     min-height:  100px;
     padding-top: 40px;
 }
-   
+footer {
+    background-color: #5943028a;
+    text-align: center;
+}
